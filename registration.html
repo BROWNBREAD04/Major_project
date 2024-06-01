@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Regstyle.css">
+</head>
+<body>
+    <div class="gra">
+    <section class="container">
+    <main>
+        <header>
+            <h1 onclick="location.href='index.html'">TechVolution-2024</h1>
+        </header>
+        <form action="#" class="form">
+                <div class="input-box">
+                <h3>Personal Information:</h3>
+                    <div class="per">
+                        <div class="per1">
+                            <label for="name" >Full Name:</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter Full Name"><br>
+                        </div>
+                        <div class="per2">
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date" required ><br>
+                        </div>
+                    </div>
+
+                    <label for="gender">Gender:</label>    
+                    <div class="gender">
+                                <div class="gen">
+                                    <input type="radio" id="male" name="gender" required>
+                                    <label for="male">Male</label>
+                                </div>
+                                <div class="gen">
+                                <input type="radio" id="female" name="gender" required>
+                                <label for="female">Female</label>
+                                </div>
+                                <div class="gen">
+                                    <input type="radio" id="non-binary" name="gender" required>
+                                    <label for="non-binary">Non-binary</label>
+                                    </div>
+                        </div>
+                    </div>
+                <h3>Contact Details:</h3>
+                <div class="per"> 
+                        <div class="per1"><label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter Email"></input>
+                        </div>
+                        <div class="per2">
+                        <label for="phone">Phone:</label>
+                        <input type="number" id="phone" name="phone" min="1000000000" max="9999999999" required placeholder="Enter Phone Number"></input>
+                    </div>
+                </div>
+                
+                <h3>Address:</h3>
+                        <label for="addr">Street Address:</label>
+                        <input type="text" id="addr" name="addr" required placeholder="Street Address 1"><br>
+                        <br><input type="text" id="addr" name="addr" placeholder="Street Address 2"><br>
+                        <br><input type="text" id="addr" name="addr" placeholder="Street Address 3">
+                    <div class="addr">
+                                <div class="col">
+                                <label for="city">City:</label>
+                                <input type="text" id="city" name="city"required placeholder="Enter your City">
+                                </div>
+                                <div class="per">
+                                    <div class="per1">
+                                    <label for="state">State:</label>
+                                    <div class="select">
+                                            <select id="state" name="state" >
+                                            <option value="" disabled selected >Select State</option>
+                                            <option value="Ap">Andhra Pradesh</option>
+                                            <option value="Ba">Bangalore</option>
+                                            <option value="Tn">Tamil Nadu</option>
+                                            <option value="Ts">Telangana</option>
+                                            </select>
+                                        </div>
+                                    </div> 
+                                    <div class="per2">
+                                    <label for="zip">Zip Code:</label>
+                                    <input type="text" id="zip" name="zip"required></input>
+                                    </div>
+                                </div> 
+                            </div>            
+                <h3>Additional Information:</h3>
+                <div class="pref">
+                        <label for="pref">Event preferences:</label>
+                            <div class="select">
+                                <select type="text" id="pref" name="pref"required>
+                                <option value="" disabled selected>Select Event preferences</option>
+                                <option>Workshop</option>
+                                <option>Seminar</option>
+                                <option>Hackathon</option>
+                            </select>
+                            </div>
+                    <br>
+                        <label for="diet">Dietary Restrictions:</label>
+                        <input type="text" id="diet" name="diet" placeholder="(If any)"></input>
+                        <label for="pref">T-shirt Size:</label>
+                        <select type="text" id="pref" name="pref"required>
+                            <option value="" disabled selected>None</option>
+                            <option value="xs">XS</option>
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                            <option value="xxl">XXL</option>
+                        </select>
+                </div>
+                <br>
+                <input type="submit" value="Submit">
+                </div>  
+        </form>
+    </main>
+    </section>
+    <script src="script.js" ></script>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,35 @@
+
+.content {
+    padding: 50px 0;
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.event-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.event-item p {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    background-color: #24252a;
+    color: #fff;
+    text-align: center;
+}

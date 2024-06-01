@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #24252a;
+    padding: 20px 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav__links li {
+    margin: 0 10px;
+}
+
+.nav__links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav__links a:hover {
+    color: #18f89f;
+}
+
+.content {
+    padding: 50px 2%;
+    text-align: center;
+}
+
+.content h1 {
+    margin-bottom: 30px;
+}
+
+.prizes-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.prize-item {
+    width: 30%;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.prize-item:hover {
+    transform: translateY(-5px);
+}
+
+.segment {
+    padding: 30px;
+}
+
+.segment h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.segment p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}

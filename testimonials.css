@@ -1,0 +1,41 @@
+
+section.content {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+section.content h1 {
+    left: 430px;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.testimonial-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.testimonial-item h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
